@@ -95,6 +95,7 @@ h1, .modal-content h2, .modal-content p {
 }
 
 .close {
+  cursor: pointer;
   color: #dc7f5f;
 }
 
@@ -111,5 +112,14 @@ button {
 
 button:hover {
   background-color: #5d5f5e;
+}
+
+/*Adjusting size of the logo*/
+
+img {
+  max-width: 300px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
 }
 
